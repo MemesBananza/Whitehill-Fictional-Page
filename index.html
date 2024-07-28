@@ -39,6 +39,18 @@
         font-weight: 200;
         font-style: normal;
       }
+
+      .navbar-brand {
+        width:150px;
+        font-size: 24px;
+      }
+      .navbar-brand img {
+        height: 50px;
+        width: auto;
+        float: left;
+        margin-right: 7px;
+        margin-left: 10px;
+      }
     </style>
 </head>
 <body>
@@ -48,7 +60,25 @@
         <h2 class="poppins-extralight"><i>Pioneering tech since 2019</i></h2>
       </div>
     </div>
-    <h3 class="display-5 text-left mt-5 pt-2 p-5">About Whitehill Group</h3>
+    <nav class="navbar sticky-top navbar-expand-sm navbar-dark bg-dark border-bottom">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="img/whglogo_text.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="products.html">Products</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav> 
+    <h3 class="display-5 text-left mt-5 pt-2 p-5 pb-2">About Whitehill Group</h3>
     <div class="container mt-5">
       <div class="row">
         <div class="col-sm-4">
@@ -65,55 +95,9 @@
         </div>
       </div>
     </div>
-    <h3 class="display-5 text-left mt-5 pt-2 pb-1 p-5">Products</h3>
-    <h6 class="display-10 text-left mt-0 pt-0 p-5"><i>Genius, aren't they?</i></h6>
-          <div class="container p5 mt-1">
-            <div class="row gy-5 gy-1">
-              <div class="col">
-                <div class="card" style="width:350px; Height: 410px">
-                  <img class="card-img-top" src="img/jsm_atm.webp" alt="JSM ATM">
-                  <div class="card-body">
-                    <h4 class="card-title">JSM ATMs</h4>
-                    <p class="card-text">Enhance your store with realistic ATMs.</p>
-                    <p class="card-text"><b>Price: 200</b><b style="color: gold;">⏣</b></p>
-                    <a href="https://axon.whitehill.group/" class="btn btn-success">Purchase</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card" style="width:350px; Height: 410px">
-                  <img class="card-img-top" src="img/jsm_sco.webp" alt="JSM SCO">
-                  <div class="card-body">
-                    <h4 class="card-title">JSM SCOs</h4>
-                    <p class="card-text">State-Of-The-Art Self-Checkouts.</p>
-                    <p class="card-text"><b>Price: 1000</b><b style="color: gold;">⏣</b></p>
-                    <a href="https://axon.whitehill.group/" class="btn btn-success">Purchase</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card" style="width:350px; Height: 410px">
-                  <img class="card-img-top" src="img/jsm_eas.webp" alt="JSM EAS">
-                  <div class="card-body">
-                    <h4 class="card-title">JSM EASs</h4>
-                    <p class="card-text">Keep down shoplifting rates with this EAS system.</p>
-                    <p class="card-text"><b>Price: 200</b><b style="color: gold;">⏣</b></p>
-                    <a href="https://axon.whitehill.group/" class="btn btn-success">Purchase</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card" style="width:350px; Height: 410px">
-                  <img class="card-img-top" src="img/jsm_sas.webp" alt="JSM SAS">
-                  <div class="card-body">
-                    <h4 class="card-title">JSM Scan & Shop <span class="badge bg-info" style="color: black;">New</span></h4>
-                    <p class="card-text">Make customer experience better with this QoL product.</p>
-                    <p class="card-text"><b>Price: 300</b><b style="color: gold;">⏣</b></p>
-                    <a href="https://axon.whitehill.group/" class="btn btn-success">Purchase</a>
-                  </div>
-                </div>
-              </div>
-            </div>
+    <div class="container.fluid p-5 text-center">
+      <a href="products.html" class="btn btn-lg btn-success" style="font: poppins;">View Catalouge</a>
+    </div>  
             <div class="container.fluid p-5 mt-0 pt-0 text-center">
               <div class="p-5 pb-2">
                 <h1 style="font-family: EDU AU VIC WA NT Hand;">Our Products are good. Don't take our word for it.</h1>
