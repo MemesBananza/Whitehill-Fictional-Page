@@ -1,4 +1,3 @@
-- added float left to the images (Products)
-- -removed prodimgs (index)
-- changed text to logo (both)
-- !Added GSAP (Unfinished)
+- added box shadow in catalouge button (index)
+- added actual customer (index)
+- changed readme
