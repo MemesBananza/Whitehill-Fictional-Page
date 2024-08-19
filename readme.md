@@ -1,7 +1,7 @@
-# pls read 🙏🙏🙏
-- welcome for whitehill to use
-- first boject with bs5
-- you are more than welcome to make a pull request
-- did not use code form someone else <br>
-<b>thanky<b> <br>
-(stream deck profile is my config for my stream deck neo)
+# Whitehill Group fictional Page (Fictional)
+**Thank you for checking out this project!** <br>
+*Here are some bulletpoints about this website:*
+- This is my first page
+- JSM Logo was created bz me (In about 10 seconds lol)
+- Images were took from theWhitehill website. // Whitehill.club
+  
