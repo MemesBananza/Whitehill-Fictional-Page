@@ -1,0 +1,4 @@
+- added float left to the images (Products)
+- -removed prodimgs (index)
+- changed text to logo (both)
+- !Added GSAP (Unfinished)
